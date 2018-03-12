@@ -13,11 +13,13 @@ import android.view.animation.DecelerateInterpolator;
 
 public class UiUtil {
 
+
     public interface OnCircularRevealListener {
         void onShowEnd();
         void onHideEnd();
     }
 
+    /*这部分代码是copy自网上一位网友的代码，忘记链接了，在此说明一下，找到后补链接，或者侵删*/
     public static void applyCircularReveal(@NonNull final View animEffectView,
                                            int triggerPointX,//揭露效果触发点x
                                            int triggerPointY,//揭露效果触发点
