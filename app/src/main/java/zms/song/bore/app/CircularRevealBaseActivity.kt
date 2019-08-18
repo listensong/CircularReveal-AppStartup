@@ -1,4 +1,4 @@
-package zms.song.circularreveal_appstartup
+package zms.song.bore.app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View

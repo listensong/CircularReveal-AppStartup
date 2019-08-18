@@ -1,4 +1,4 @@
-package zms.song.circularreveal_appstartup;
+package zms.song.bore;
 
 import org.junit.Test;
 

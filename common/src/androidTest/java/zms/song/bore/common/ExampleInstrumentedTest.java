@@ -1,6 +1,7 @@
-package zms.song.circularreveal_appstartup;
+package zms.song.bore.common;
 
 import android.content.Context;
+
 import androidx.test.InstrumentationRegistry;
 import androidx.test.runner.AndroidJUnit4;
 
@@ -17,10 +18,10 @@ import static org.junit.Assert.*;
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
     @Test
-    public void useAppContext() throws Exception {
+    public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("zms.song.circularreveal_appstartup", appContext.getPackageName());
+        assertEquals("zms.song.bore.common.test", appContext.getPackageName());
     }
 }

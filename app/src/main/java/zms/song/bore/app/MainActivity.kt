@@ -1,8 +1,7 @@
-package zms.song.circularreveal_appstartup
+package zms.song.bore.app
 
 import android.content.Context
 import android.graphics.Color
-import android.graphics.Rect
 import android.os.Bundle
 import androidx.appcompat.widget.Toolbar
 import android.util.DisplayMetrics
