@@ -20,8 +20,11 @@ class MainActivity : CircularRevealBaseActivity() {
 
         window.apply {
             setBackgroundDrawable(null)
-            statusBarColor = Color.TRANSPARENT
+            clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
             decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+            addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+            //statusBarColor = getColor(R.color.colorPrimary)
+            statusBarColor = Color.TRANSPARENT
         }
 
         setContentView(R.layout.activity_main)

@@ -12,7 +12,6 @@
 
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait"
             android:theme="@style/CircularRevealTheme">
 
             <intent-filter>
